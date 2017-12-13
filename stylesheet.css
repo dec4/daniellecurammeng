@@ -1,0 +1,164 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #F8F8F8 !important;
+}
+
+header {
+  margin-bottom: 20px;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background-color: #E2E2E2;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid #FFF;
+}
+
+.header2 {
+  text-align: center !important;
+}
+
+.container {
+  justify-content: space-between !important;
+  margin-bottom: 20px;
+}
+
+#me {
+  padding: 2px;
+  border: 2px solid #525252;
+  border-radius: 3px;
+  margin-right: 50px;
+}
+
+#name {
+  font-family: 'Georgia', serif;
+  font-size: 44px;
+  font-weight: bolder;
+  color: #00305B;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.contact ul {
+  padding: 0;
+  list-style-type: none;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.btn a {
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #0F4F88 !important;
+  border: 1px solid #204156;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+.btn a:hover {
+  text-decoration: none;
+}
+
+.btn a:active {
+  position: relative;
+  top: 2px;
+}
+
+nav li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.logos img {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.block h5 {
+  margin-bottom: 20px;
+  color: #424242;
+}
+
+.block img {
+  float: right;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+}
+
+.largeClump {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.work {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 40px !important;
+  margin: 20px;
+  background-image: repeating-linear-gradient(#F8F8F8, #F2F2F2, #ebebf0, #dcdce9);
+  color: #021d36;
+  flex-grow: 1;
+  max-width: 650px;
+}
+
+.skills {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin: 20px;
+  background-image: repeating-linear-gradient(#F8F8F8, #F2F2F2, #ebebf0, #dcdce9);
+  color: #021d36;
+  min-width: 100px;
+  max-width: 650px;
+  flex-grow: 1;
+}
+
+h2 {
+  font-family: 'Georgia', serif !important;
+  font-weight: bold;
+  margin-bottom: 20px !important;
+}
+
+ul {
+  list-style-type: square;
+  font-weight: bold;
+}
+
+.inner {
+  list-style-type: none;
+  font-weight: normal;
+}
+
+.work a {
+  color: #115593 !important;
+}
+
+.work a:visited {
+  color: #0a3b66 !important;
+}
+
+/* bmwIndex.html */
